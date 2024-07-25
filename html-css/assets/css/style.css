@@ -69,10 +69,147 @@ body {
     align-items: center;
 
     color: #fff;
-    background: rgb(230, 0, 255);
+    background: rgb(230, 80, 230);
     border-radius: 10px;
     
     width: 100%;
     height: 100px;
 }
+
+
+/* セクション関連 */
+.section{
+    padding: 30px 10px 200px;
+    border: 1px solid #000;
+}
+
+.section_headline{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 30px;
+}
+
+.section_button{
+    margin: 40px 0 0;
+    text-align: center;
+}
+
+
+
+/* フォーム入力セクション */
+.input_area{
+    margin: 0 5%;
+}
+
+.input_set{
+    padding: 20px 0;
+}
+
+.input_hl{
+    font-size: 18px;
+    text-align: left;
+}
+
+.input_box{
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    min-width: 50px;
+    border: 1px solid #000;
+}
+
+
+
+/* フォームボタン */
+.form_button{
+    margin: 20px 0%;
+    text-align: center;
+}
+
+
+/* ボタン関連 */
+.button{
+    border: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 60px;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+.button:hover{
+    box-shadow: 50 0 0 #bbb;
+}
+
+.button.light_green{
+    width: 100%;
+    color: white;
+    background-color: #92d3ca;
+}
+
+.button.light_navy{
+    width: 100%;
+    
+    color: white;
+    background-color: rgb(48, 112, 209);
+}
+
+
+
+
+.select{
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #000;
+    min-width: 500px;
+}
+
+
+.input{
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px #ccc;
+    min-width: 500px;
+    border: 1px solid #000;
+}
+
+.reset{
+    
+    font-size: 15px;
+}
+
+
+.radio{
+    margin: 0 10px;
+}
+
+.textarea{
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #000;
+    min-width: 500px;
+    min-height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
