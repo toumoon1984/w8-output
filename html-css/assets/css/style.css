@@ -99,7 +99,8 @@ body {
 
 /* フォーム入力セクション */
 .input_area{
-    margin: 0 5%;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .input_set{
@@ -177,7 +178,7 @@ body {
     border: 1px solid #000;
 }
 
-.reset{
+.clear{
     
     font-size: 15px;
 }
