@@ -32,11 +32,7 @@ const clickHandler = () => {
 }
 
 
-// document.getElementById("submit").addEventListener("click", clickHandler01);
 document.getElementById("submit").addEventListener("click", clickHandler);
-
-
-
 
 
 }) ();
